@@ -170,6 +170,10 @@ Python이나 uv가 필요하지 않습니다. 배포할 운영체제에서 각�
 참고: [Lightweight Charts](https://tradingview.github.io/lightweight-charts/),
 [yfinance](https://ranaroussi.github.io/yfinance/).
 
+## 개발 도구
+
+이 프로젝트는 OpenAI Codex의 도움을 받아 개발했습니다.
+
 ## 외부 참고 자료
 
 - [electron-vite](https://electron-vite.org/guide/)
