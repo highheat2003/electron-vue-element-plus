@@ -1,0 +1,40 @@
+<mxfile host="65bd71144e">
+    <diagram id="pW1kPKsCs0mH2z7ePVQw" name="Page-1">
+        <mxGraphModel dx="1219" dy="795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="Oc6ttrymlqotsWGUIHXM-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="주식차트" vertex="1">
+                    <mxGeometry height="320" width="920" x="80" y="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="Oc6ttrymlqotsWGUIHXM-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+                    <mxGeometry height="35" width="140" x="160" y="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="Oc6ttrymlqotsWGUIHXM-17" parent="1" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=none;strokeWidth=1;fillColor=#0085FC;fontColor=#FFFFFF;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=0;fontSize=12;spacing=5;" value="종목검색" vertex="1">
+                    <mxGeometry height="40" width="80" x="320" y="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="Oc6ttrymlqotsWGUIHXM-19" parent="1" style="swimlane;shape=mxgraph.bootstrap.anchor;strokeColor=none;fillColor=light-dark(#1488db, #838b91);fontColor=#ffffff;fontStyle=0;childLayout=stackLayout;horizontal=0;startSize=0;horizontalStack=1;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+                    <mxGeometry height="40" width="180" x="790" y="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="Oc6ttrymlqotsWGUIHXM-20" parent="Oc6ttrymlqotsWGUIHXM-19" style="text;strokeColor=inherit;align=center;verticalAlign=middle;spacingLeft=10;spacingRight=10;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;shape=mxgraph.bootstrap.leftButton;rSize=5;fillColor=inherit;fontColor=inherit;" value="일" vertex="1">
+                    <mxGeometry height="40" width="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="Oc6ttrymlqotsWGUIHXM-21" parent="Oc6ttrymlqotsWGUIHXM-19" style="text;strokeColor=inherit;align=center;verticalAlign=middle;spacingLeft=10;spacingRight=10;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;rSize=5;fillColor=inherit;fontColor=inherit;" value="주" vertex="1">
+                    <mxGeometry height="40" width="60" x="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="Oc6ttrymlqotsWGUIHXM-22" parent="Oc6ttrymlqotsWGUIHXM-19" style="text;strokeColor=inherit;align=center;verticalAlign=middle;spacingLeft=10;spacingRight=10;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;shape=mxgraph.bootstrap.rightButton;rSize=5;fillColor=inherit;fontColor=inherit;" value="월" vertex="1">
+                    <mxGeometry height="40" width="60" x="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="Oc6ttrymlqotsWGUIHXM-23" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="종목코드" vertex="1">
+                    <mxGeometry height="30" width="70" x="90" y="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="Oc6ttrymlqotsWGUIHXM-35" parent="1" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.comboBox;strokeColor=#999999;fillColor=#ddeeff;align=left;fillColor2=#aaddff;mainText=;fontColor=#666666;fontSize=17;spacingLeft=3;" value="3년" vertex="1">
+                    <mxGeometry height="30" width="150" x="580" y="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="Oc6ttrymlqotsWGUIHXM-36" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="기간" vertex="1">
+                    <mxGeometry height="30" width="50" x="515" y="30" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

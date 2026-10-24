@@ -1,0 +1,17 @@
+[project]
+name = "desktop-python-backend"
+version = "0.1.0"
+description = "Local FastAPI backend for the Electron desktop app"
+requires-python = ">=3.11,<3.15"
+dependencies = [
+    "fastapi>=0.115,<1",
+    "uvicorn>=0.34,<1",
+    "yfinance>=1.7.0",
+]
+
+[dependency-groups]
+dev = ["httpx>=0.28,<1", "pytest>=8,<10", "pyinstaller>=6,<7"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

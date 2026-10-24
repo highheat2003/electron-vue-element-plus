@@ -1,0 +1,133 @@
+:root {
+  font-family: 'Segoe UI', 'Malgun Gothic', sans-serif;
+  color: #243247;
+  background: #f4f7fb;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  --el-color-primary: #3866df;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  min-width: 360px;
+}
+button,
+input {
+  font: inherit;
+}
+.app-shell {
+  min-height: 100vh;
+  flex-direction: column;
+}
+.app-header {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #e1e7ef;
+}
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 20px;
+  font-weight: 700;
+}
+.brand .el-icon {
+  color: var(--el-color-primary);
+}
+.app-body {
+  flex: 1;
+  min-width: 0;
+}
+.app-sidebar {
+  width: 220px;
+  flex-shrink: 0;
+  background: #fff;
+  border-right: 1px solid #e1e7ef;
+  padding: 20px 12px;
+}
+.app-sidebar.is-collapsed {
+  width: 88px;
+}
+.sidebar-toolbar {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 12px;
+}
+.is-collapsed .sidebar-toolbar {
+  justify-content: center;
+}
+.app-menu {
+  border-right: none;
+}
+.app-menu .el-menu-item {
+  margin-bottom: 8px;
+  border-radius: 8px;
+}
+.app-menu .el-menu-item.is-active {
+  background: var(--el-color-primary-light-9);
+}
+.app-content {
+  min-width: 0;
+  flex-direction: column;
+}
+.el-main {
+  padding: 32px 24px;
+}
+.intro {
+  padding: 16px 0 28px;
+}
+.eyebrow {
+  color: #3866df;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+h1 {
+  margin: 12px 0;
+  font-size: clamp(25px, 4vw, 36px);
+  letter-spacing: -1px;
+}
+.intro > p:last-child,
+.hint {
+  color: #66758a;
+  line-height: 1.7;
+}
+.panel {
+  margin-bottom: 24px;
+  border-radius: 12px;
+}
+.card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.hint {
+  font-size: 13px;
+  margin-bottom: 0;
+}
+.el-footer {
+  height: auto;
+  padding: 20px 24px;
+  color: #66758a;
+  font-size: 13px;
+}
+@media (max-width: 640px) {
+  .app-sidebar {
+    width: 164px;
+    padding: 16px 8px;
+  }
+  .app-sidebar.is-collapsed {
+    width: 80px;
+  }
+  .app-menu:not(.el-menu--collapse) .el-menu-item {
+    padding: 0 12px;
+  }
+  .el-main {
+    padding: 24px 16px;
+  }
+}
